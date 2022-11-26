@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+  display: flex;
+}
+
+div {
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+}
+
+@media (orientation:landscape) {
+  
+  body {
+    flex-direction: row;
+    }
+
+  }
+
+@media (orientation:portrait) {
+  
+  body {
+    flex-direction: column;
+  }
+}

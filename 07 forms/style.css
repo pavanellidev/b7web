@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 50px;
+  font-size: 18px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+input[type=text], textarea, select {
+  padding: 10px;
+  width: 450px;
+  font-size: 16px;
+  border: 1px solid lightgray;
+  outline: 0;
+  margin-top: 6px;
+}
+
+textarea {
+  height: 200px;
+  resize: none;
+}
+
+.termos {
+  color: black;
+  text-decoration: none;
+}
+
+.termos:hover {
+  text-decoration: underline;
+}
+
+button {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #6d6b6b; 
+}
+
+button:hover {
+  background-color: darkgrey;
+}

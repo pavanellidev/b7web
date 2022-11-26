@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+fieldset {
+  background-color: #EEE;
+  margin-bottom: 15px;
+  border: 2px solid #ff1717;
+}
+
+legend {
+  background-color: lightblue;
+  padding: 5px;
+}

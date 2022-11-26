@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+#titulo {
+  background-color: pink;
+  color: darkblue;
+}
+
+p {
+  border: 4px solid blue;
+  border-radius: 8px;
+}
+
+div {
+  background-color: lightcoral;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid darkgreen;
+}
+
+img {
+  border: 5px solid red;
+  border-radius: 6px;
+}

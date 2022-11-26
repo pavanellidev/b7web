@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+}
+
+.exemplo {
+  width: 150px;
+  height: 245px;
+  border: 1px solid black;
+  word-wrap: break-word;
+}

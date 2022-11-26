@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   width: 100vw;
+   height: 100px;
+   background-color: #333333;
+}
+
+.container {
+   display: flex;
+   min-height: 600px;
+   margin-right: -17px;
+}
+
+div aside {
+   width: 100px;
+   height: 100vh;
+   background-color: #555555;
+}
+
+div main {
+   flex: 1;
+   width: 100vw;
+   height: 100vh;
+   background-color: #777777;
+   padding: 8px;
+   font-size: 19px;
+}
+
+footer {
+   width: 100vw;
+   height: 80px;
+   background-color: #333333;
+}

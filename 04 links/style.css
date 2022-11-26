@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+div {
+  margin-top: 3px;
+}
+
+.link {
+  color: green;
+  font-size: 30px;
+}
+
+.link:hover {
+  border: 3px solid blue;
+  color: red;
+  text-decoration: none;
+}

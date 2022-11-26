@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body {
+  margin: 0;
+  background-color: aqua;
+}
+
+.container {
+  width: calc(100% - 30px);
+  height: 200px;
+  background-color: #CCC;
+}

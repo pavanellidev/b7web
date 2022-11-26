@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+form {
+  border: 2px solid #add8f9;
+  border-radius: 5px;
+  box-shadow: 2px 1px 1px #add8f9;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  font-size: 19px;
+  padding: 25px 10px 0px 30px;
+}
+
+.button {
+  font-size: 12px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

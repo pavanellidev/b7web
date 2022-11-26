@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-left: 210px;
+}
+
+th, td {
+  border: 2px solid black;
+  width: 200px;
+  height: 40px;
+  padding: 12px;
+}
+
+tr {
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 15px;
+}
+
+table thead {
+  background-color: lightgreen;
+}
+
+table tbody {
+  background-color: aliceblue;
+}
+
+td:hover {
+  background-color: lightblue;
+}

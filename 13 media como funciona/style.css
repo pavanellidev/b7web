@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+  background-color: beige;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (min-width:750px) and (max-width: 999px) {
+  body {
+    background-color: #556b6b;
+  }
+}
+
+
+@media (max-width: 600px) {
+  body {
+    background-color: rgb(184, 184, 165);
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
